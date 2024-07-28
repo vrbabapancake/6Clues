@@ -1,72 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Movie Trivia Game</title>
-    <script>
-        let gameData;
-        let currentMovieIndex = 0;
-
-        window.onload = () => {
-            fetch('/get_game_data')
-                .then(response => response.json())
-                .then(data => {
-                    gameData = data;
-                    document.getElementById('gameTitle').innerText = gameData.gameTitle;
-                    loadNextMovie();
-                });
-        };
-
-        function loadNextMovie() {
-            if (currentMovieIndex < gameData.movies.length) {
-                const movie = gameData.movies[currentMovieIndex];
-                document.getElementById('clue').innerText = movie.clues[movie.currentClueIndex];
-                document.getElementById('movieIndex').value = currentMovieIndex;
-            } else {
-                document.getElementById('gameArea').innerHTML = "<p>You've completed the game!</p>";
-            }
-        }
-
-        function submitGuess() {
-            const guess = document.getElementById('guess').value;
-            const movieIndex = document.getElementById('movieIndex').value;
-
-            fetch('/submit_guess', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify({ guess: guess, movieIndex: movieIndex })
-            })
-            .then(response => response.json())
-            .then(data => {
-                if (data.result === 'correct') {
-                    alert('Correct! Moving on to the next movie...');
-                    currentMovieIndex++;
-                    loadNextMovie();
-                } else {
-                    alert('Incorrect. Try again.');
-                    if (data.answer) {
-                        alert(`Out of clues! The correct answer was: ${data.answer}`);
-                        currentMovieIndex++;
-                        loadNextMovie();
-                    } else {
-                        document.getElementById('clue').innerText = gameData.movies[movieIndex].clues[gameData.movies[movieIndex].currentClueIndex];
-                    }
-                }
-                document.getElementById('guess').value = '';
-            });
-        }
-    </script>
+    <title>6Clues Movie Trivia</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
-    <h1 id="gameTitle"></h1>
-    <div id="gameArea">
-        <p id="clue"></p>
-        <input type="hidden" id="movieIndex" value="0">
-        <input type="text" id="guess" placeholder="Your guess">
-        <button onclick="submitGuess()">Submit Guess</button>
-    </div>
+    <h1>6Clues Movie Trivia</h1>
+    <button id="start-game">Start Game</button>
+    <div id="game"></div>
+
+    <script>
+        $(document).ready(function(){
+            $("#start-game").click(function(){
+                $.get("/start_game", function(data){
+                    nextClue();
+                });
+            });
+
+            function nextClue(){
+                $.post("/get_clue", function(data){
+                    $("#game").html('<p>Clue: ' + data.clue + '</p><input type="text" id="answer"><button id="submit-answer">Submit</button>');
+                    
+                    $("#submit-answer").click(function(){
+                        var answer = $("#answer").val();
+                        $.post("/submit_answer", { answer: answer }, function(response){
+                            alert(response.response);
+                            if (response.correct) {
+                                nextClue();
+                            }
+                        });
+                    });
+                });
+            }
+        });
+    </script>
 </body>
 </html>
