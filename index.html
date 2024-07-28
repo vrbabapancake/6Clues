@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>6Clues Movie Trivia</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        #game {
+            margin-top: 20px;
+        }
+        #clue {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        #answer {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>6Clues Movie Trivia</h1>
+    <button id="start-game">Start Game</button>
+    <div id="game">
+        <p id="clue"></p>
+        <input type="text" id="answer" placeholder="Your guess">
+        <button id="submit-answer">Submit</button>
+        <p id="response"></p>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
