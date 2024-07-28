@@ -1,0 +1,653 @@
+{
+    "gameTitle": "6Clues Movie Triva",
+    "movies": [
+      {
+        "movieTitle": "Boogie Nights",
+        "clues": [
+          "Set in Los Angeles' San Fernando Valley",
+          "Alfred Molina",
+          "Leonardo DiCaprio was the original choice...had to turn it down because of Titanic",
+          "Character: Reed Rothchild",
+          "Begins in 1977, ends in 1984",
+          "Burt Reynolds was nominated for an Academy Award"
+        ],
+        "answer": "Boogie Nights",
+        "currentClueIndex": 0,
+        "incorrectAttempts": 0
+      },
+      {
+        "movieTitle": "Million Dollar Baby",
+        "clues": [
+          "Anthony Mackie",
+          "No opening credits after the title is shown",
+          "Received the award for Best Picture at the 77th Academy Awards",
+          "Screenplay was written by Paul Haggis",
+          "Hilary Swank wins her second best actress oscar"
+        ],
+        "answer": "Million Dollar Baby",
+        "currentClueIndex": 0,
+        "incorrectAttempts": 0
+      },
+      {
+        "movieTitle": "Toy Story 3",
+        "clues": [
+          "Michael Keaton",
+          "Teen goes to college",
+          "Joan Cusack",
+          "Released June 18, 2010",
+          "Music by Randy Newman",
+          "Tom Hanks and Tim Allen"
+        ],
+        "answer": "Toy Story 3",
+        "currentClueIndex": 0,
+        "incorrectAttempts": 0
+      },
+      {
+        "movieTitle": "Die Hard",
+        "clues": [
+          "Hart Bochner",
+          "Lead role was turned down by Richard Gere, Clint Eastwood,and Burt Reynolds",
+          "Premiered July 12, 1988",
+          "Marital reconciliation",
+          "Cinematography by Jan de Bont",
+          "John McTiernan directs this Christmas film"
+        ],
+        "answer": "Die Hard",
+        "currentClueIndex": 0,
+        "incorrectAttempts": 0
+      },
+      {
+        "movieTitle": "Sin City",
+        "clues": [
+          "Brittany Murphy",
+          "Screened at the 2005 Cannes Film Festival",
+          "Tagline: You're gonna love this, baby",
+          "The whole film was initially shot in full color, and was converted to black-and-white",
+          "Elijah Wood",
+          "Robert Rodriguez co-directs with Frank Miller"
+        ],
+        "answer": "Sin City",
+        "currentClueIndex": 0,
+        "incorrectAttempts": 0
+      },
+      {
+        "movieTitle": "Jackie Brown",
+        "clues": [
+          "Third feature-length production for this director",
+          "Zeus or Tiny Tom Lister Jr.",
+          "Bureau of Alcohol, Tobacco, Firearms and Explosives Agent",
+          "Based on an Elmore Leonard novel",
+          "Bridget Fonda",
+          "Quentin Tarantino had posters of the films Coffy and Foxy Brown in his office when Pam Grier came in to audition for the part of the title role of this film"
+        ],
+        "answer": "Jackie Brown",
+        "currentClueIndex": 0,
+        "incorrectAttempts": 0
+      },
+      {
+        "movieTitle": "Black Swan",
+        "clues": [
+          "Premiered as the opening film for the 67th Venice International Film Festival",
+          "Barbara Hershey",
+          "2010 American psychological thriller film",
+          "Quote: ‘I felt it. Perfect. I was perfect.’",
+          "Vincent Cassel",
+          "Natalie Portman and Mila Kunis trained in ballet for several months prior to filming, and notable figures from the ballet world helped with film production to shape the ballet presentation"
+        ],
+        "answer": "Black Swan",
+        "currentClueIndex": 0,
+        "incorrectAttempts": 0
+      },
+      {
+        "movieTitle": "Amélie",
+        "clues": [
+          "Gaslighting",
+          "Brittle Bone Disease",
+          "Co-production between companies in France and Germany",
+          "Montmartre",
+          "Garden Gnome around the world",
+          "Audrey Tautou stars as the title role"
+        ],
+        "answer": "Amélie",
+        "currentClueIndex": 0,
+        "incorrectAttempts": 0
+      },
+      {
+        "movieTitle": "Being John Malkovich",
+        "clues": [
+          "Charlie Sheen",
+          "Roger Ebert named it the best film of 1999",
+          "Produced by Michael Stipe",
+          "Catherine Keener",
+          "Was at the 72nd Academy Awards nominated in three categories: Best Director, Best Original Screenplay and Best Supporting Actress",
+          "John Malkovich is quoted as saying, “Either the movie's a bomb and it's got not only my name above the title but my name in the title, so I'm f****ed that way; or it does well and I'm just forever associated with this character.”"
+        ],
+        "answer": "Being John Malkovich",
+        "currentClueIndex": 0,
+        "incorrectAttempts": 0
+      },
+      {
+        "movieTitle": "Requiem for a Dream",
+        "clues": [
+          "Dylan Baker",
+          "Nominated for an Academy Award for Best Actress but lost to Julia Roberts for Erin Brockovich",
+          "Character: Tappy Tibbons",
+          "2000 American psychological drama film",
+          "Four different forms of drug addiction",
+          "Darren Aronofsky directs Jared Leto in this really depressing film"
+        ],
+        "answer": "Requiem for a Dream",
+        "currentClueIndex": 0,
+        "incorrectAttempts": 0
+      },
+      {
+        "movieTitle": "American Beauty",
+        "clues": [
+          "Music by Thomas Newman",
+          "Scott Bakula",
+          "Cinematography by Conrad Hall",
+          "Tagline: ... look closer",
+          "Written by Alan Ball",
+          "Sam Mendes directs Kevin Spacey in this 1999 film about searching for a better life"
+        ],
+        "answer": "American Beauty",
+        "currentClueIndex": 0,
+        "incorrectAttempts": 0
+      },
+      {
+        "movieTitle": "The Silence of the Lambs",
+        "clues": [
+          "1992",
+          "Ted Levine",
+          "Goodbye Horse",
+          "Fava Beans",
+          "Character - Clarice",
+          "Anthony Hopkins"
+        ],
+        "answer": "The Silence of the Lambs",
+        "currentClueIndex": 0,
+        "incorrectAttempts": 0
+      },
+      {
+        "movieTitle": "Whatever Happened to Baby Jane",
+        "clues": [
+          "Vaudevillian child star",
+          "Originally received an X rating in the UK",
+          "1962 American psychological thriller",
+          "The film was remade in 1991 as a television film",
+          "Directed by Robert Aldrich",
+          "Joan Crawford and Bette Davis"
+        ],
+        "answer": "Whatever Happened to Baby Jane",
+        "currentClueIndex": 0,
+        "incorrectAttempts": 0
+      },
+      {
+        "movieTitle": "All About Eve",
+        "clues": [
+          "Won Oscar for best picture in 1950",
+          "Character: Miss Casswell",
+          "Aging Broadway Star",
+          "The only film in Oscar history to receive 4 female acting nominations",
+          "Tagline: It’s all about women...and their men?",
+          "Bette Davis plays Margo Channing"
+        ],
+        "answer": "All About Eve",
+        "currentClueIndex": 0,
+        "incorrectAttempts": 0
+      },
+      {
+        "movieTitle": "Ferris Bueller's Day Off",
+        "clues": [
+          "1986",
+          "Ferrari GT250",
+          "Jeffrey Jones",
+          "Ben Stein",
+          "Quote - Lick your palms",
+          "John Hughes"
+        ],
+        "answer": "Ferris Bueller's Day Off",
+        "currentClueIndex": 0,
+        "incorrectAttempts": 0
+      },
+      {
+        "movieTitle": "Amadeus",
+        "clues": [
+          "1984",
+          "Vienna, Austria",
+          "Antonio Salieri",
+          "Tom Hulce",
+          "Milos Foreman",
+          "Mozart"
+        ],
+        "answer": "Amadeus",
+        "currentClueIndex": 0,
+        "incorrectAttempts": 0
+      },
+      {
+        "movieTitle": "Forrest Gump",
+        "clues": [
+          "Barry Sonnenfeld was attached to the film, but left to direct Addams Family Values",
+          "Visual Effects by Industrial Lights and Magic",
+          "Set from 1944 to 1983",
+          "1994 American epic romantic-comedy-drama",
+          "Music by Alan Silvestri",
+          "In 1996, a themed restaurant, Bubba Gump Shrimp Company, opened based on the film"
+        ],
+        "answer": "Forrest Gump",
+        "currentClueIndex": 0,
+        "incorrectAttempts": 0
+      },
+      {
+        "movieTitle": "Gladiator",
+        "clues": [
+          "Filming locations Malta, Morocco and England",
+          "Quote: Father, congratulations. I shall sacrifice a hundred bulls to honor your triumph.",
+          "Tagline: Summer 2000 A.D.",
+          "Won Oscar for Best Picture and Best Actor",
+          "Directed by Ridley Scott",
+          "Russell Crowe plays Maximus Decimus Meridius in ancient Rome"
+        ],
+        "answer": "Gladiator",
+        "currentClueIndex": 0,
+        "incorrectAttempts": 0
+      },
+          {
+            "movieTitle": "12 Years a Slave",
+            "clues": [
+              "Peter Travers listed it as his #1 film pick of 2013",
+              "Character: Samuel Bass",
+              "Sarah Paulson",
+              "Screenplay by John Ridley",
+              "Produced by Brad Pitt",
+              "Steve McQueen’s film based on the 1853 Memoir of Solomon Northup"
+            ],
+            "answer": "12 Years a Slave",
+            "currentClueIndex": 0,
+            "incorrectAttempts": 0
+          },
+          {
+            "movieTitle": "The Last Emperor",
+            "clues": [
+              "Character: Reginald Johnston...or R.J.",
+              "Music by David Byrne",
+              "1987 Historical Drama",
+              "Directed by Bernardo Bertolucci",
+              "Peter O’Toole",
+              "The story of the final emperor of China"
+            ],
+            "answer": "The Last Emperor",
+            "currentClueIndex": 0,
+            "incorrectAttempts": 0
+          },
+          {
+            "movieTitle": "The Sound of Music",
+            "clues": [
+              "Honeymoon in Paris",
+              "Screenplay by Ernest Lehman",
+              "Won a total of five Academy Awards including Best Picture",
+              "Displaced Gone with the Wind as the highest grossing film of all-time",
+              "1965",
+              "Von Trapp family"
+            ],
+            "answer": "The Sound of Music",
+            "currentClueIndex": 0,
+            "incorrectAttempts": 0
+          },
+          {
+            "movieTitle": "The Hurt Locker",
+            "clues": [
+              "Based on the experiences of Freelance Journalist Mark Boal",
+              "Ralph Fiennes",
+              "2008",
+              "Iraq War",
+              "Directed by Kathryn Bigelow",
+              "Jeremy Renner plays a soldier in the U.S. Army Explosive Ordnance Disposal (EOD) unit in the Iraq War"
+            ],
+            "answer": "The Hurt Locker",
+            "currentClueIndex": 0,
+            "incorrectAttempts": 0
+          },
+          {
+            "movieTitle": "Braveheart",
+            "clues": [
+              "Brian Cox",
+              "Nominated for 10 Academy Awards winning 5",
+              "Patrick McGoohan",
+              "Set from 1280-1314",
+              "Tagline: Every man dies, not every man lives.",
+              "Mel Gibson stars and directs in this film about Scottish independence"
+            ],
+            "answer": "Braveheart",
+            "currentClueIndex": 0,
+            "incorrectAttempts": 0
+          },
+          {
+            "movieTitle": "Spotlight",
+            "clues": [
+              "Many scenes were shot in Hamilton, Ontario",
+              "Shown at the Special Presentations section of the 2015 Toronto International Film Festival",
+              "Stanley Tucci",
+              "Character: Marty Baron",
+              "Set in Boston",
+              "Mark Ruffalo is on a team of reporters that exposes sex crimes committed by the Catholic church"
+            ],
+            "answer": "Spotlight",
+            "currentClueIndex": 0,
+            "incorrectAttempts": 0
+          },
+          {
+            "movieTitle": "Birdman",
+            "clues": [
+              "Jazz drummer Antonio Sánchez composed and recorded the score for the film",
+              "The film's ending was changed during production and was written halfway through filming",
+              "Was selected as the opening film of the 71st Venice International Film Festival",
+              "Emma Stone",
+              "Cinematography by Emmanuel Lubezki",
+              "Alejandro G. Iñárritu’s stylized, one take film"
+            ],
+            "answer": "Birdman",
+            "currentClueIndex": 0,
+            "incorrectAttempts": 0
+          },
+          {
+            "movieTitle": "Dances with Wolves",
+            "clues": [
+              "A film adaptation of the 1988 book of the same name by Michael Blake",
+              "Maury Chaykin",
+              "Tagline: Inside everyone is a frontier waiting to be discovered.",
+              "Set in 1864",
+              "Graham Greene",
+              "Kevin Costner directs this film credited as a leading influence for the revitalization of the Western genre"
+            ],
+            "answer": "Dances with Wolves",
+            "currentClueIndex": 0,
+            "incorrectAttempts": 0
+          },
+          {
+            "movieTitle": "Unforgiven",
+            "clues": [
+              "Much of the cinematography for the film was shot in Alberta",
+              "The script floated around Hollywood for nearly 20 years before production began",
+              "Tagline: It's a hell of a thing, killing a man",
+              "Saul Rubinek",
+              "Character: Little Bill Daggett",
+              "Prior to this film, Clint Eastwood had never won an Oscar"
+            ],
+            "answer": "Unforgiven",
+            "currentClueIndex": 0,
+            "incorrectAttempts": 0
+          },
+          {
+            "movieTitle": "The King’s Speech",
+            "clues": [
+              "Won the People’s Choice Award at TIFF",
+              "The lead role was written with Paul Bettany in mind, who later regretted turning down the role",
+              "The film is an Australian co-production, and the first ever Australian film to win the Academy Award for Best Picture.",
+              "Tagline: The Nation Awaits...",
+              "Guy Pearce",
+              "Tom Hooper directs this film about a member of the British Royal Family who has a stutter"
+            ],
+            "answer": "The King’s Speech",
+            "currentClueIndex": 0,
+            "incorrectAttempts": 0
+          },
+          {
+            "movieTitle": "The Sting",
+            "clues": [
+              "Chicago",
+              "Robert Earl Jones",
+              "Set in September 1936",
+              "Was a box office smash in 1973–74",
+              "Quote: I dunno know what to do with this guy, Henry. He's an Irishman who doesn't drink, doesn't smoke, and doesn't chase dames.",
+              "George Roy Hill directs this film about confidence men"
+            ],
+            "answer": "The Sting",
+            "currentClueIndex": 0,
+            "incorrectAttempts": 0
+          },
+          {
+            "movieTitle": "Terms of Endearment",
+            "clues": [
+              "Jodie Foster turned down one of the lead roles due to her commitment at Yale",
+              "Jeff Daniels",
+              "A new teaching position in Kearney, Nebraska",
+              "Tagline: Come to Laugh, Come to Cry, Come to Care, Come to Terms.",
+              "Directed by James L. Brooks",
+              "Shirley MacLaine was cast in the one of the lead roles because she was the only person who saw this film as a comedy"
+            ],
+            "answer": "Terms of Endearment",
+            "currentClueIndex": 0,
+            "incorrectAttempts": 0
+          },
+          {
+            "movieTitle": "Midnight Cowboy",
+            "clues": [
+              "Based on the 1965 novel of the same name by James Leo Herlihy",
+              "Bob Balaban",
+              "Soundtrack features music from Elephant's Memory, Randy Newman and Harry Nilsson",
+              "Character: Enrico Salvatore \"Ratso\" Rizzo",
+              "Directed by John Schlesinger",
+              "Jon Voight and Dustin Hoffman are buds"
+            ],
+            "answer": "Midnight Cowboy",
+            "currentClueIndex": 0,
+            "incorrectAttempts": 0
+          },
+       
+              {
+                "movieTitle": "Near Dark",
+                "clues": [
+                  "Music by Tangerine Dream",
+                  "Both Johnny Depp and D.B. Sweeney auditioned for the main role of Caleb",
+                  "Released October 2, 1987",
+                  "Lance Henriksen",
+                  "Directed by Kathryn Bigelow",
+                  "Plot: A small-town farmer's son reluctantly joins a traveling group of the undead after he is turned by a beautiful drifter"
+                ],
+                "answer": "Near Dark",
+                "currentClueIndex": 0,
+                "incorrectAttempts": 0
+              },
+              {
+                "movieTitle": "The Lost Boys",
+                "clues": [
+                  "1987",
+                  "Tim Capello",
+                  "Edward Herrmann",
+                  "Joel Schumacher",
+                  "Arizona brothers who move to California",
+                  "Corey Haim"
+                ],
+                "answer": "The Lost Boys",
+                "currentClueIndex": 0,
+                "incorrectAttempts": 0
+              },
+              {
+                "movieTitle": "Let the Right One In",
+                "clues": [
+                  "Almost every scene in the movie contains the color red or red/orange",
+                  "Set in 1981 - Released in 2008",
+                  "Voted movie of the year by Empire magazine (the first time a foreign language film topped their list since City of God in 2003)",
+                  "Based on the 2004 novel of the same title by John Ajvide Lindqvist",
+                  "Title is taken from the lyrics of a Morrissey song",
+                  "An English remake was made in 2010 called ‘Let Me In’"
+                ],
+                "answer": "Let the Right One In",
+                "currentClueIndex": 0,
+                "incorrectAttempts": 0
+              },
+              {
+                "movieTitle": "From Dusk Til Dawn",
+                "clues": [
+                  "Tagline: How far can Too Far go?",
+                  "1996",
+                  "Brothers - Seth and Richard",
+                  "“Titty Twister” Nightclub",
+                  "Harvey Keitel",
+                  "George Clooney has tattoos and fights vampires in Mexico"
+                ],
+                "answer": "From Dusk Til Dawn",
+                "currentClueIndex": 0,
+                "incorrectAttempts": 0
+              },
+              {
+                "movieTitle": "Daybreakers",
+                "clues": [
+                  "2009 Australian science-fiction horror film",
+                  "Set in 2019",
+                  "Tagline: The battle between immortality and humanity is on.",
+                  "Directed by the Spierig Brothers",
+                  "Willem Dafoe",
+                  "Plot: a plague caused by an infected vampire bat has transformed most of the world's population into vampires"
+                ],
+                "answer": "Daybreakers",
+                "currentClueIndex": 0,
+                "incorrectAttempts": 0
+              },
+              {
+                "movieTitle": "Blade 2",
+                "clues": [
+                  "Highest grossing film in the series",
+                  "Donnie Yen",
+                  "Tagline: Faster. Sharper. Deadlier.",
+                  "2002 American superhero horror film",
+                  "Norman Reedus",
+                  "Wesley Snipes plays the title character in this sequel"
+                ],
+                "answer": "Blade 2",
+                "currentClueIndex": 0,
+                "incorrectAttempts": 0
+              },
+              {
+                "movieTitle": "Queen of the Damned",
+                "clues": [
+                  "Based on the third novel in the series",
+                  "In December 2002, Allan Menzies of Scotland murdered one of his friends and claimed in court that the main character of the film told him to do it",
+                  "Directed by Michael Rymer",
+                  "Music by Jonathan Davis (lead singer of Korn)",
+                  "Film was released in 2002, six months after the main actresses death",
+                  "Character: Vampire Lestat"
+                ],
+                "answer": "Queen of the Damned",
+                "currentClueIndex": 0,
+                "incorrectAttempts": 0
+              },
+              {
+                "movieTitle": "Buffy the Vampire Slayer",
+                "clues": [
+                  "Hilary Swank",
+                  "In 1999, Dark Horse Comics released a graphic novel adaptation of the original script under the title The Origin",
+                  "Hemery High School",
+                  "Character: Oliver Pike",
+                  "Rutger Hauer",
+                  "Joss Whedon writes this screenplay which is very different from the TV series based off the film"
+                ],
+                "answer": "Buffy the Vampire Slayer",
+                "currentClueIndex": 0,
+                "incorrectAttempts": 0
+              },
+              {
+                "movieTitle": "John Carpenter’s Vampires",
+                "clues": [
+                  "Gene Siskel placed the main actor as his pick for his 'Best Actor' suggestion to the Oscars, and he placed the film as his 10th favorite film of 1998",
+                  "The film is followed by two direct-to-video sequels",
+                  "Tagline: Prepare for the Dawn",
+                  "Music composed by the director",
+                  "A team of Vatican sponsored vampire hunters",
+                  "James Woods plays Jack Crow"
+                ],
+                "answer": "John Carpenter’s Vampires",
+                "currentClueIndex": 0,
+                "incorrectAttempts": 0
+              },
+              {
+                "movieTitle": "Dracula: Dead and Loving It",
+                "clues": [
+                  "Based on characters created by Bram Stoker",
+                  "Anne Bancroft",
+                  "Currently holds an 11% on Rotten Tomatoes",
+                  "Steven Weber",
+                  "Harvey Korman",
+                  "Directed by Mel Brooks"
+                ],
+                "answer": "Dracula: Dead and Loving It",
+                "currentClueIndex": 0,
+                "incorrectAttempts": 0
+              },
+              {
+                "movieTitle": "Vampire in Brooklyn",
+                "clues": [
+                  "Final film of Ray Combs. He died soon after",
+                  "Character: Detective Justice",
+                  "Released: October 27, 1995",
+                  "Tagline: A comic tale of horror and seduction.",
+                  "Directed by Wes Craven",
+                  "Eddie Murphy stars"
+                ],
+                "answer": "Vampire in Brooklyn",
+                "currentClueIndex": 0,
+                "incorrectAttempts": 0
+              },
+              {
+                "movieTitle": "Vampire’s Kiss",
+                "clues": [
+                  "A box office failure but went on to become a cult film",
+                  "Tagline: Seduction. Romance. Murder. The things one does for love.",
+                  "Maria Conchita Alonso",
+                  "Released June 2, 1989",
+                  "Quote: Who? Who? Who do you mean, who? How could somebody MISFILE something? What could be easier? It's all alphabetical. You just PUT it IN the right file! According to ALPHABETICAL ORDER! You know - A, B, C, D, E, F, G!",
+                  "Nic Cage wants to be a vampire"
+                ],
+                "answer": "Vampire’s Kiss",
+                "currentClueIndex": 0,
+                "incorrectAttempts": 0
+              },
+              {
+                "movieTitle": "The Hunger",
+                "clues": [
+                  "Based on the 1981 novel of the same name by Whitley Strieber",
+                  "Dan Hedaya",
+                  "Song: Bela Lugosi's Dead",
+                  "Tagline: Nothing Human Loves Forever",
+                  "Susan Sarandon",
+                  "David Bowie stars in this Tony Scott directed film"
+                ],
+                "answer": "The Hunger",
+                "currentClueIndex": 0,
+                "incorrectAttempts": 0
+              },
+              {
+                "movieTitle": "Vamp",
+                "clues": [
+                  "Released July 18, 1986",
+                  "Directed by Richard Wenk",
+                  "Tagline: A Frightening Comedy",
+                  "Christopher Makepeace",
+                  "Three college boys",
+                  "Grace Jones plays Queen Katrina"
+                ],
+                "answer": "Vamp",
+                "currentClueIndex": 0,
+                "incorrectAttempts": 0
+              },
+              {
+                "movieTitle": "30 Days of Night",
+                "clues": [
+                  "A sequel was released on October 5, 2010 straight to home video",
+                  "Produced by Sam Raimi",
+                  "Shot in New Zealand. Set in the USA.",
+                  "Ben Foster",
+                  "Barrow, Alaska",
+                  "Josh Hartnett stars in this film based on a graphic novel"
+                ],
+                "answer": "30 Days of Night",
+                "currentClueIndex": 0,
+                "incorrectAttempts": 0
+              }
+            ]
+          }
+          
+      
+  
+  
