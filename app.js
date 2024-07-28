@@ -29,8 +29,7 @@ const gameData = {
             "answer": "Million Dollar Baby",
             "currentClueIndex": 0,
             "incorrectAttempts": 0
-        },
-        // Add more movies here...
+        }
     ],
     "currentMovieIndex": 0,
     "currentClueIndex": 0
@@ -50,6 +49,7 @@ function startGame() {
 
 function nextClue() {
     const movie = currentGameData.movies[currentGameData.currentMovieIndex];
+    console.log(`Next Clue: ${movie.movieTitle}`);
     if (movie.currentClueIndex < movie.clues.length) {
         $("#clue").text(`Clue ${movie.currentClueIndex + 1}: ${movie.clues[movie.currentClueIndex]}`);
     } else {
@@ -67,6 +67,7 @@ function nextClue() {
 function submitAnswer() {
     const answer = $("#answer").val().trim().toLowerCase();
     const movie = currentGameData.movies[currentGameData.currentMovieIndex];
+    console.log(`Submitted Answer: ${answer}`);
     if (answer === movie.answer.toLowerCase()) {
         $("#response").text("Correct! Moving on to the next movie...");
         currentGameData.currentMovieIndex += 1;
