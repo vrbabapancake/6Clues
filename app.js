@@ -1,3 +1,5 @@
+console.log("JavaScript Loaded");
+
 const gameData = {
     "gameTitle": "6Clues Movie Trivia",
     "movies": [
@@ -37,6 +39,7 @@ const gameData = {
 let currentGameData = {...gameData};
 
 function startGame() {
+    console.log("Game Started");
     currentGameData.currentMovieIndex = 0;
     currentGameData.movies.forEach(movie => {
         movie.currentClueIndex = 0;
@@ -82,6 +85,7 @@ function submitAnswer() {
 }
 
 $(document).ready(function() {
+    console.log("Document Ready");
     $("#start-game").click(function() {
         startGame();
     });
