@@ -1,38 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title>6Clues Movie Trivia</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        #game {
+            margin-top: 20px;
+        }
+        #clue {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        #answer {
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
     <h1>6Clues Movie Trivia</h1>
     <button id="start-game">Start Game</button>
-    <div id="game"></div>
+    <div id="game">
+        <p id="clue"></p>
+        <input type="text" id="answer" placeholder="Your guess">
+        <button id="submit-answer">Submit</button>
+        <p id="response"></p>
+    </div>
 
-    <script>
-        $(document).ready(function(){
-            $("#start-game").click(function(){
-                $.get("/start_game", function(data){
-                    nextClue();
-                });
-            });
-
-            function nextClue(){
-                $.post("/get_clue", function(data){
-                    $("#game").html('<p>Clue: ' + data.clue + '</p><input type="text" id="answer"><button id="submit-answer">Submit</button>');
-                    
-                    $("#submit-answer").click(function(){
-                        var answer = $("#answer").val();
-                        $.post("/submit_answer", { answer: answer }, function(response){
-                            alert(response.response);
-                            if (response.correct) {
-                                nextClue();
-                            }
-                        });
-                    });
-                });
-            }
-        });
-    </script>
+    <script src="app.js"></script>
 </body>
 </html>
